@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sylhet Tea Mehfil</title>
+    <title>Hocky Docky</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,6 +19,7 @@
               colors: {
                 clifford: '#da373d',
                 hockey: '#FF4240',
+                hocBlack: '#131318',
               }
             }
           }
@@ -85,42 +86,43 @@
         <div class="carousel w-full">
 
             <!-- Slider-1 -->
-            <div id="slide1" class="carousel-item relative w-full lg:h-[550px] bg-[url(./images/1.png)] bg-cover bg-center rounded-2xl">
+            <div id="slide1" class="carousel-item relative w-full lg:h-[550px] bg-[linear-gradient(70deg,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url(./images/1.png)] bg-cover bg-center rounded-2xl">
              
               <div class="absolute flex gap-4 justify-start transform -translate-y-1/2 left-5 right-5 bottom-1.5">
                 <a href="#slide4" class="btn btn-circle bg-[#131318] border-none hover:bg-[#424249]"><img src="./images/Slider-left.png" alt=""></a> 
                 <a href="#slide2" class="btn btn-circle bg-[#131318] border-none hover:bg-[#424249]"><img src="./images/Slider-right.png" alt=""></a>
               </div>
             </div> 
+            
 
             <!-- Slider-2 -->
-            <div id="slide2" class="carousel-item relative w-full">
-              <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
+            <div id="slide2" class="carousel-item relative w-full lg:h-[550px] bg-[linear-gradient(70deg,rgba(0,0,0,0.144),rgba(0,0,0,0.9)),url(./images/4.png)] bg-cover bg-center rounded-2xl">
               <div class="absolute flex gap-4 justify-start transform -translate-y-1/2 left-5 right-5 bottom-1.5">
                 <a href="#slide1" class="btn btn-circle bg-[#131318] border-none hover:bg-[#424249]"><img src="./images/Slider-left.png" alt=""></a> 
                 <a href="#slide3" class="btn btn-circle bg-[#131318] border-none hover:bg-[#424249]"><img src="./images/Slider-right.png" alt=""></a>
               </div>
             </div> 
-            <div id="slide3" class="carousel-item relative w-full">
-              <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
+            <div id="slide3" class="carousel-item relative w-full lg:h-[550px] bg-[linear-gradient(70deg,rgba(0,0,0,0.144),rgba(0,0,0,0.9)),url(./images/1.png)] bg-cover bg-center rounded-2xl">
               <div class="absolute flex gap-4 justify-start transform -translate-y-1/2 left-5 right-5 bottom-1.5">
                 <a href="#slide2" class="btn btn-circle bg-[#131318] border-none hover:bg-[#424249]"><img src="./images/Slider-left.png" alt=""></a> 
                 <a href="#slide4" class="btn btn-circle bg-[#131318] border-none hover:bg-[#424249]"><img src="./images/Slider-right.png" alt=""></a>
               </div>
-            </div> 
-            <div id="slide4" class="carousel-item relative w-full">
-              <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
+            </div>
+            <div id="slide4" class="carousel-item relative w-full lg:h-[550px] bg-[linear-gradient(70deg,rgba(0,0,0,0.144),rgba(0,0,0,0.9)),url(./images/4.png)] bg-cover bg-center rounded-2xl">
               <div class="absolute flex gap-4 justify-start transform -translate-y-1/2 left-5 right-5 bottom-1.5">
                 <a href="#slide3" class="btn btn-circle bg-[#131318] border-none hover:bg-[#424249]"><img src="./images/Slider-left.png" alt=""></a> 
                 <a href="#slide1" class="btn btn-circle bg-[#131318] border-none hover:bg-[#424249]"><img src="./images/Slider-right.png" alt=""></a>
               </div>
             </div>
           </div>
-
+          <div class="w-1/2 h-40 bg-hocBlack text-white p-4 translate-x-[36vw] -translate-y-52 ">
+            <h2 class="text-2xl font-extrabold">All the Dream  Players are at Your Room</h2>
+            <p class="font-medium mt-4">At our club, players are our center. And YOU! Meet all the heroes from the field at your own space</p>
+        </div>
     </section>
 </header>
 <main>
- <!-- Banner Section -->
+ <!--  Section -->
  <section>
 
  </section>
@@ -132,86 +134,81 @@
 
 
 
-      <footer class="max-w-[1600px] grid grid-cols-1 bg-[#FF00001A] mt-24 mx-auto">
-            <div class="mt-24 flex justify-between w-9/12 mx-auto">
-                <img src="./images/cup.png" alt="">
-                <div class="flex flex-col md:flex-row justify-end items-center gap-3">
-                    <p class="text-[#777] font-medium"> Ready to get strated?</p>
-                    <button class="btn btn-primary rounded-lg w-48 text-white text-lg font-bold border-0 bg-gradient-to-l from-[#f00]  to-[#FF8938] hover:bg-slate-400">Get Started</button>
-                </div>
+<footer class="w-auto grid grid-cols-1 bg-hocBlack mt-24 mx-auto">
+     <div class="grid grid-cols-1 lg:grid-cols-5 mt-12 w-9/12 gap-4 mx-auto text-center md:text-left">
+        <div class="col-span-2">
+            <h4 class="text-3xl font-extrabold text-white">Get In Touch</h4>
+            <p class="font-medium text-[rgba(255,255,255,0.6)] pb-2">We know you are very passionate about Hockey. So do we. You will find us very engaged with all parties. Please come and visit us. Or just hang up your phone to know how we can support you realising your dream. Because we believe every body is champion within, mashaAllah!</p>
+            <p class="font-medium text-[rgba(255,255,255,0.6)] pb-2"><i class="fa-regular fa-envelope text-hockey"></i> hockeys@support.com</p>
+            <p class="font-medium text-[rgba(255,255,255,0.6)] pb-2"><i class="fa-solid fa-square-phone text-hockey"></i> (+880) 111-222-333</p>
+        </div>
+        <div class="col-span-2 flex justify-center gap-10">
+            <div class="font-medium text-[rgba(255,255,255,0.6)] pb-2">
+              <h3 class="text-lg font-bold text-white pb-3">Company</h3>
+          <ul>
+              <a href="">
+                  <li>About us</li>
+              </a>
+              <a href="">
+                  <li>Leadership</li>
+              </a>
+              <a href="">
+                  <li>Careers</li>
+              </a>
+              <a href="">
+                  <li>News & Article</li>
+              </a>
+              <a href="">
+                  <li>Legal Notice</li>
+              </a>
+          </ul>
+                              
             </div>
-            <div class="grid grid-cols-1 lg:grid-cols-4 mt-12 w-9/12 mx-auto text-center md:text-left">
-                <div>
-                    <h3 class="text-xl font-semibold">Quick Links</h3>
-                    <ul class="mt-5">
+            <div class="font-medium text-[rgba(255,255,255,0.6)]">
+              <h3 class="text-lg font-bold text-white pb-3">Support</h3>
+            <ul>
+                <a href="">
+                    <li>Help Center</li>
+                </a>
+                <a href="">
+                    <li>FAQ</li>
+                </a>
+                <a href="">
+                    <li>Ticket Support</li>
+                </a>
+                <a href="">
+                    <li>Contact Us</li>
+                </a>
+            </ul>
+  
+            </div>
+        </div>
+        <div class="font-medium text-[rgba(255,255,255,0.6)]">
+          <h3 class="text-lg font-bold text-white pb-3">Services</h3>
+                <ul>
                     <a href="">
-                        <li>Home</li>
+                        <li>Academy</li>
                     </a>
                     <a href="">
-                        <li>About US</li>
+                        <li>Group Lesson</li>
                     </a>
                     <a href="">
-                        <li>Insurence</li>
+                        <li>Private Lesson</li>
                     </a>
                     <a href="">
-                        <li>Privacy Policy</li>
-                    </a>
-                </ul></div>
-                <div class="">
-                    <h3 class="text-xl font-semibold">Our Service</h3>
-                    <ul class="mt-5">
-                    <a href="">
-                        <li>Life Insurance</li>
+                        <li>Hockeys for kids</li>
                     </a>
                     <a href="">
-                        <li>Car Insurance</li>
-                    </a>
-                    <a href="">
-                        <li>Health Insurance</li>
-                    </a>
-                    <a href="">
-                        <li>House Insurance</li>
+                        <li>Hockeys for Adult</li>
                     </a>
                 </ul>
-            </div>
-                <div>
-                    <h3 class="text-xl font-semibold">Help</h3>
-                    <ul class="mt-5">
-                    <a href="">
-                        <li>FAQs</li>
-                    </a>
-                    <a href="">
-                        <li>Contact US</li>
-                    </a>
-                    <a href="">
-                        <li>Assistance</li>
-                    </a>
-                    <a href="">
-                        <li>Book a Session</li>
-                    </a>
-                </ul>
-            </div>
-            <div class="mt-2 md:mt-0">
-                <label class="input input-bordered flex items-center gap-2">
-                    Name
-                    <input type="text" class="grow" placeholder="Muhamamd" />
-                  </label>
-                  <label class="input input-bordered flex items-center gap-2">
-                    Email
-                    <input type="text" class="grow" placeholder="abdullah@site.com" />
-                  </label>
-                  <label class="input input-bordered flex items-center gap-2">
-                    <input type="text" class="grow" placeholder="Search" />
-                  </label>
-                  
-            </div>
-            </div>
-            <div class="w-9/12 mx-auto mt-12 text-center border-t-2 border-t-[#e8c8b2]">
-                <p class="my-6">&COPY; 2027 UIDesign.to - All rights reserved.</p>
-                
+        </div>
+    </div>
+    
+        
 
-            </div>
+    </div>
 
-        </footer>
+</footer>
 </body>
 </html>
